@@ -59,7 +59,9 @@ export const ArtProvider = ({ children }) => {
     { id: 47, title: 'Las Hilanderas', artist: 'Diego Velázquez', year: 1657 },
     { id: 48, title: 'The Death of Socrates', artist: 'Jacques-Louis David', year: 1787 },
     { id: 49, title: 'The Three Musicians', artist: 'Pablo Picasso', year: 1921 },
-    { id: 50, title: 'The Rape of the Sabine Women', artist: 'Nicolas Poussin', year: 1638 }
+    { id: 50, title: 'The Rape of the Sabine Women', artist: 'Nicolas Poussin', year: 1638 },
+    { id: 51, title: 'bacon', artist: 'yomama', year: 2001 },
+    { id: 52, title: 'eggs', artist: 'yocuz', year: 1999 }
   ];
 
   const [selectedArt, setSelectedArt] = useState(null);
