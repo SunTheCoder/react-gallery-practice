@@ -12,7 +12,7 @@ export const ArtProvider = ({ children }) => {
         { id: 3, title: 'The Persistence of Memory', artist: 'Salvador Dalí', year: 1931 },
     ];
 
-    const [seclectedArt, setSelectedArt] = useState(null)
+    const [selectedArt, setSelectedArt] = useState(null)
 
     return (
         <ArtContext.Provider value={{ artPieces, selectedArt, setSelectedArt }}>
